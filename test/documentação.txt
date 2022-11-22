@@ -1,0 +1,41 @@
+criacao de uma clase funcoes para centralizar os de validação de dados
+criacao de uma classe cidadeBean para validar os dados do objeto cidade
+criacao de uma interface enventoVetor de evento vetor
+criacao de uma classe vetor para aramazenar e mover dados implementar o evento
+criacao de uma classe cidadevetor para adicoinar apenas cidade no vetor
+criacao de uma classe dadosConexao usada para sistema de multconeção
+criacao de uma classe conexao responsavel pela conexao com o sistema
+criacao de uma classe ConexaoVetor vetor de todas as conexoes disponiveis
+criacao de uma classe arquivo para a leitura e gravacao de arquivos
+criacao de uma classe xml coneverçaõ de classes para xml
+criacao de uma interface cidadedao para a manipulcação de dados no banco e implementacao para diversos bancos
+criacao de uma classe cidadeFirebird para a manipulacao de dados no firebird
+criacao de uma classe cidademysql para a manipulcao de dados em no mysql
+criacao de uma classe cidadebo que integra todas as classes de conexao implementadas na interface
+criacao de uma calsse cidadeOBJ que integrara todas as funcoes
+
+criacao de uma classe banco reponsavel para integrar select update delete
+tiposelect
+variaveis
+ campos
+ valores
+ calculos
+ select
+ funcoes
+tabelas
+funcoes
+  condicao juncao
+condicoes
+  condicoes operador negacao(condicao)
+  condicoes ((condicao)operador(condicao))
+  condicoes ((condicoes)operador(condicao))
+  condicao  ((condicoes)operador(condicoes))
+  condicao  ((condicao)operador(condicoes))
+  variavel operador variavel
+  variavel operador variavel1 operador variavel2
+  variavel operador select
+  variavel operadorconjunto operador variavel2
+grupos
+  condicao com funcao 
+  condicao sem funcao
+ordernacoes
