@@ -1,2 +1,7 @@
-# toledonews_2011
-Backup de portal de noticias em java com jsp de 2011
+# toledonews
+
+NEWS WEB SITE
+
+run /sql/backup.sql in mysql
+
+host files in tomcat folder or equivalent host
