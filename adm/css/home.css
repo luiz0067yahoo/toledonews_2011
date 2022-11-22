@@ -1,0 +1,1940 @@
+                /* pagina de estilos toledo news 8/
+
+/*  ------------- estruturação ------------------------------*/
+
+body{
+	margin-top:0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	position:abolute;
+	background-color:#FFF;
+}
+
+div {
+	margin-top:0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-top:0px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;
+	
+}
+
+div img {
+	display: block;
+	}
+
+divs{
+	border-width:medium;
+	border-style:groove;
+	}
+	
+div.esquerda{
+	float:left;
+	height:auto;	
+	display:block;
+	}
+
+div.centro{
+	float:center;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	left:auto;
+	right:auto;
+	}
+
+div.direita{
+	float:right;
+	}
+
+#tudo{
+	width:100%;
+	height:100%;	
+	position:abolute;
+	background-color:#FFF;
+	}
+	
+div.linhastotal {
+	width:100%;
+	height:auto;
+	margin-left:0px;
+	margin-right:0px;
+	}	
+
+div.branco {
+	float:left;
+	}
+
+.linhascentro {
+	width:1000px;
+	height:auto;
+	min-height:1250px;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	background-color:transparent;
+	}
+	
+.divisorrodape {
+	width:100%; height:20px; margin-left:0px; margin-right:0px; clear:both; display:block;}
+	
+/* pagina de 
+, divs, titulos */	
+.linhasconteudo {
+	width:750px;
+	height:auto;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	background-color:#FFF;
+	}
+.espacopublicidade {
+	width:216px;
+	margin-left:17px;
+	margin-right:17px;
+	height:auto;
+	min-height:2100px;
+	float:left;
+	padding-top:10px;
+	display:inline;
+	background-color:#FFF;
+	}	
+	
+.espacoconteudo{
+	width:750px;
+	height:auto;
+	min-height:600px;
+	float:left;
+	background-color:#FFF;
+	clear:both;
+	}
+.textoconteudo {
+	width:650px;
+	padding-right:50px;
+	padding-top:50px;
+	padding-left:50px;
+	text-align:justify;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	height:auto;
+	clear:both;
+	}	
+
+/*  títulos e subtitulos da bagaça */
+h3 {
+	color: #666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+h1 {
+	color:#F00;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	}
+texto.noticias{
+	text-decoration:none; color:#000; font-family:Arial, Helvetica, sans-serif; font-size:10px;}	
+	
+itenshopping {
+	color:#F00; font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight:bold;
+	}
+	
+precoshopping {
+	color:#000; font-family:Arial, Helvetica, sans-serif; font-size:10px; 
+	}		
+	
+
+.containerimagensconteudo{
+	width:710px; height:auto; padding-left:20px; padding-right:20px; padding-top:20px; display:inline; overflow:hidden; float:left;}
+
+.imagensconteudopequena{
+	width:90px; height:50px; padding:4px; float:left; display:block; overflow:hidden;}
+
+.imagensconteudo {
+	width:510px;
+	margin-left:100px;
+	margin-right:100px;
+	height:auto;
+	margin-top:20px;
+	display:inline;
+	overflow:hidden;
+	float:left;
+	}
+	
+#legendaimagemconteudo{
+	width:750px; height:25px; float:left; clear:both; overflow:hidden; display:block; font-family:Arial, Helvetica, sans-serif;
+	 color:#000; text-align:left; line-height:25px; text-indent:100px; font-size:12px;}	
+
+		
+#espacopublicidade1{ /* descontar 4px na largura e altura da borda */
+	width:212px;
+	height:474px;
+	float:left;
+	border-style:solid;
+	border-width:2px;
+	border-color:#FFF;
+	display:inline;
+	background-color:transparent;
+	margin-bottom:11px;
+				-moz-border-radius-topleft:6px;
+				-moz-border-radius-topright:6px;
+				-moz-border-radius-bottomleft:6px;
+				-moz-border-radius-bottomright:6px;
+				
+				-webkit-border-top-left-radius:6px;
+				-webkit-border-top-right-radius:6px;
+				-webkit-border-bottom-left-radius:6px;
+				-webkit-border-bottom-right-radius:6px;
+				
+				-khtml-border-top-left-radius:6px;
+				-khtml-border-top-right-radius:6px;
+				-khtml-border-bottom-left-radius:6px;					
+				-khtml-border-bottom-right-radius:6px;					
+				
+				border-top-left-radius:6px;
+				border-top-right-radius:6px;
+				border-bottom-left-radius:6px;
+				border-bottom-right-radius:6px;
+				border-radius: 6px 6px 6px 6px;
+	}	
+
+#espacopublicidade2{ /* descontar 4px na largura e altura da borda */
+	width:212px;
+	height:220px;
+	float:left;
+	border-style:solid;
+	border-width:2px;
+	border-color:#FFF;
+	display:inline;
+	background-color:transparent;
+	margin-bottom:11px;
+				-moz-border-radius-topleft:6px;
+				-moz-border-radius-topright:6px;
+				-moz-border-radius-bottomleft:6px;
+				-moz-border-radius-bottomright:6px;
+				
+				-webkit-border-top-left-radius:6px;
+				-webkit-border-top-right-radius:6px;
+				-webkit-border-bottom-left-radius:6px;
+				-webkit-border-bottom-right-radius:6px;
+				
+				-khtml-border-top-left-radius:6px;
+				-khtml-border-top-right-radius:6px;
+				-khtml-border-bottom-left-radius:6px;					
+				-khtml-border-bottom-right-radius:6px;					
+				
+				border-top-left-radius:6px;
+				border-top-right-radius:6px;
+				border-bottom-left-radius:6px;
+				border-bottom-right-radius:6px;
+				border-radius: 6px 6px 6px 6px;
+	}	
+
+.espacopublicidade3{ /* descontar 4px na largura e altura da borda */
+	width:212px;
+	height:99px;
+	float:left;
+	border-style:solid;
+	border-width:2px;
+	border-color:#FFF;
+	display:inline;
+	background-color:transparent;
+	margin-bottom:11px;
+				-moz-border-radius-topleft:6px;
+				-moz-border-radius-topright:6px;
+				-moz-border-radius-bottomleft:6px;
+				-moz-border-radius-bottomright:6px;
+				
+				-webkit-border-top-left-radius:6px;
+				-webkit-border-top-right-radius:6px;
+				-webkit-border-bottom-left-radius:6px;
+				-webkit-border-bottom-right-radius:6px;
+				
+				-khtml-border-top-left-radius:6px;
+				-khtml-border-top-right-radius:6px;
+				-khtml-border-bottom-left-radius:6px;					
+				-khtml-border-bottom-right-radius:6px;					
+				
+				border-top-left-radius:6px;
+				border-top-right-radius:6px;
+				border-bottom-left-radius:6px;
+				border-bottom-right-radius:6px;
+				border-radius: 6px 6px 6px 6px;
+	}	
+
+.publicidadebannermeio{
+	width:730px; height:160px; float:left; clear:both; padding:10px; display:inline; overflow:hidden;}/* tamanho real 750 */
+	
+
+/* ------------------- menu e topo  ------------ */
+
+div.topo{
+	width:100%; height:auto; margin-left:0px; margin-right:0px; display:block;}
+
+#barraazul{
+	width:100%;
+	height:18px;
+	background-color:#2C2755;
+	color:FFFFF;
+}
+
+#barraazulmeio {
+	width:1000px;
+	height:18px;
+	float:center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	text-align:right;
+	}
+	a.topo:link{
+		cursor:default;
+		cursor:pointer;
+		color:#2C2755;		
+	} 
+	a.topo:visited {
+		cursor:default;
+		cursor:pointer;
+		color:#2C2755;		
+	}
+	a.topo:hover {
+		cursor:default;
+		cursor:pointer;
+		color:#FFF;
+	}
+	a.topo:active {
+		cursor:default;
+		cursor:pointer;
+		color:#FFF;
+	}
+
+#barracinza{ /*  topo  */
+	background-image:url(../images/home/backtopo.jpg); background-repeat:repeat-x;
+	height:107px;
+	width:100%; 
+	margin-left:0px;
+	margin-right:0px;
+}
+
+#logo {
+	width:297px;
+	height:107px;
+	background-color:transparent;
+	float:left;
+	}
+
+/*  publicidades e banners   */
+	
+#publicidadetopo {
+    width:473px;
+    height:107px;
+    float:left;
+    background-color:transparent;
+}	
+	
+	#verticaltextbanner1{
+		background-color:#FEFEFE;
+		
+		width:62px;
+		height:11px;
+		border-color:#828587;
+		border-style:solid;
+		border-width:1px;
+		float:left;
+		
+		font-weight:bold;				
+		font-family:Arial;
+		font:Arial;
+		text-transform:uppercase;	
+		font-size:8px;
+		text-align:center;					
+		color:#969494;
+		-moz-transform-origin: 100% 0px;     
+		-webkit-transform-origin: 100% 0px;  
+		-webkit-transform:rotate(-90deg);
+		-moz-transform:rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);				
+	}
+	#banner1{
+		width:530px;
+		height:100%;
+		float:right;
+		background-color:#00AFEF;
+	}
+	#fundobanner1{
+		display:block;
+		overflow:visible;
+		float:right;
+		margin-top:2px;
+		top:0px;
+		background-color:#00AFEF;
+		width:543px;
+		_width:530px;
+		min-height:62px;
+		
+	}
+	#canto{
+		width:27px;
+		height:100%;
+		float:left;
+	}
+	#containnerbanner1{
+		position:absolute;
+		margin-top:11px;
+		margin-right:18px;
+		right:0px;
+		_margin-right:8px;
+		float:right;
+		height:62px;
+		overflow:visible;
+		_width:543px;
+	}
+#barralaranja{
+	height:30px;
+	background-color:#FBB12F;
+	clear:both;
+	font-family:Arial;
+	font:Arial;
+	font-size:12px;
+	color:#FFFFFF;
+	width:989px;
+	margin-left:auto;
+	margin-right:auto;
+	float:center;
+}
+	#data{
+		font-weight:bold;
+		float:left;
+		text-align:left;
+		height:30px;
+                width:400px;
+		line-height:30px;
+                display:block;
+	}
+	
+	
+	div.icones{
+		float:left;
+		height:30px;
+		width:36px;
+		text-align:center;
+	}
+	#area_pesquisa{
+		float:left;
+		vertical-align: middle;
+		height:20px;
+		width:187px;
+		padding-bottom:5px;
+		padding-top:5px;
+		overflow:hidden;
+	}
+	#iconebusca{
+		right:193px;		
+		position:absolute;
+		z-index:10000;
+		float:left;
+		padding-top:5px;
+		padding-left:0px;
+		width:13px;
+		height:13px;
+	}
+	#pesquisa{
+		position:relative;
+		color:#000;
+		outline: none;
+		border-width: 0px;
+		padding: 0px 0px 0px 0px;
+		margin: 0px;
+		line-height: 18px;
+		vertical-align: middle;
+		width:140px;
+		height:20px;
+		font-family:Arial;
+		font:Arial;
+		font-size:12px;
+		cursor:default;
+		cursor:pointer;
+		float:left;
+		/* *********** inserir borda apos estar pronto *******   border: 1px solid #D1D5DD;*/
+		
+		-moz-border-radius-topleft:5px;
+		-moz-border-radius-bottomleft:5px;
+		
+		-webkit-border-top-left-radius:5px;
+		-webkit-border-bottom-left-radius:5px;
+		
+		-khtml-border-top-left-radius:5px;
+		-khtml-border-bottom-left-radius:5px;					
+		
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		border-radius: 5px 0px 0px 5px;
+		
+		behavior:url(./css/PIE_uncompressed.htc);
+	}
+
+	#buscar{	
+		cursor:default;
+		cursor:pointer;
+		width:35px;
+		height:18px;
+		float:left;
+		display:block;
+		border-width:1px;
+		z-index:10000;
+		font-size:10px;
+		line-height:18px;
+		color:#FFF;
+		
+		border-color:#F00;
+						
+			
+		background: -webkit-gradient(linear, left top, left bottom, from(#C40C14), to(#971616)); 
+		-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C40C14', endColorstr='#971616'); 
+		background: -moz-linear-gradient(top,  #C40C14,  #971616); 					
+		background: -khtml-gradient(linear, left top, left bottom, from(#C40C14), to(#971616));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C40C14', endColorstr='#971616'); 
+		
+                -moz-border-radius-topright:5px;
+		-moz-border-radius-bottomright:5px;
+		
+		-webkit-border-top-right-radius:5px;
+		-webkit-border-bottom-right-radius:5px;
+		
+		-khtml-border-top-right-radius:5px;
+		-khtml-border-bottom-right-radius:5px;	
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px;		
+		border-radius: 0px 5px 5px 0px;		
+		behavior:url(./css/PIE_uncompressed.htc);		
+	}
+div.barra_menus{
+	height:34px;
+	width:989px;
+	margin-left:auto;
+	margin-right:auto;	
+	padding-top:0px;
+	padding-left:0px;
+	background-color:transparent;
+	z-index:1000000;
+
+}
+	div.submenus{
+		display:none;
+		position:absolute;
+		margin-top:34px;
+		_margin-top:34px;
+		margin-left: 0px;
+		_margin-left: -143px;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		padding-top: 8px;
+		padding-left: 10px;		
+		padding-bottom: 8px;
+		padding-right: 0px;
+		background-color:#E6E7E8;
+		border:0px;
+	}
+	
+	div.sub_menu_horizontal{	
+		height:18px;
+		_height:22px;
+		float:left;
+		background-repeat:repeat;
+		display:block;
+		overflow:hidden;
+		margin-top:0px;
+		margin-left: 10px;
+		margin-bottom:0px;
+		margin-right: 0px;
+		padding-top:0px;
+		padding-left:0px;
+		padding-bottom:0px;
+		padding-right:0px;
+		width:143px;
+                text-indent:10px;
+		text-align:left;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+        div.sub_menu_vertical{		
+		float:left;
+                width:143px;
+                height:30px;
+                text-align:left;
+                clear:both;
+                display:block;  
+                border-right-color:#ccc;
+                border-right-width:1px;
+                border-right-style:solid;
+                text-indent:10px;
+	}
+	div.coluna_menu{		
+		float:left;			
+	}      
+	div.menu{
+		float:left;		
+		text-align:center;		
+		height:26px;
+		font-family:'MirageRegular';
+		font-size:16px;
+                width:auto;
+	}
+	
+	div.menu1{
+		float:left;		
+		text-align:center;
+		height:34px;
+		_height:31px;
+		width:140px;		
+		_padding-top:3px;
+		color:#2C2755;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;
+                _line-height:31px;
+		font-weight:normal;
+		font-style:normal;
+						
+	}
+	
+	
+		div.sub_menu1{
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:#2C2755;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;
+			background-color:#E6E7E8;		
+		}
+	/* inicio menus categoria noticias */	
+		a.sub_menu1{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;font-style:normal; color:#2C2755;}
+		a.sub_menu1:link{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;font-style:normal; color:#2C2755; }
+		a.sub_menu1:hover{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;font-style:normal; color:#999;}
+		a.sub_menu1:active{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;font-style:normal; color:#2C2755;}
+		a.sub_menu1:visited{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;font-style:normal; color:#2C2755;}
+	
+	/*  fim dos menus da categoria noticias */
+	
+	div.menu2{
+		float:left;		
+		text-align:center;
+		height:34px;
+		_height:31px;
+		width:140px;		
+		_padding-top:3px;
+		color:#8D2828;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;
+                _line-height:31px;
+		font-weight:normal;
+		font-style:normal;
+	}
+		div.sub_menu2{
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:#8D2828;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;			
+		}
+	div.menu3{
+		float:left;		
+		text-align:center;
+		height:34px;
+		_height:31px;
+		width:180px;		
+		_padding-top:3px;
+		color:#036496;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;
+                _line-height:31px;
+		font-weight:normal;
+		font-style:normal;
+	}
+		div.sub_menu3{
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:#036496;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;			
+		}
+	div.menu4{
+		float:left;		
+		text-align:center;
+		height:34px;
+		_height:31px;
+		width:140px;		
+		_padding-top:3px;
+		color:#F2672B;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;
+                _line-height:31px;
+		font-weight:normal;
+		font-style:normal;
+	}
+		div.sub_menu4{
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:#F2672B;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;	
+		}
+	div.menu5{
+		float:left;		
+		text-align:center;
+		height:34px;
+		_height:31px;
+		width:140px;		
+		_padding-top:3px;
+		color:#A0CB33;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;					
+		_line-height:31px;					
+		font-weight:normal;
+		font-style:normal;		
+	}
+		div.sub_menu5{		
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:#A0CB33;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;
+		}	
+		
+	div.menu6{
+		float:left;		
+		text-align:center;
+		height:100%;
+		width:140px;
+		_padding-top:3px;
+		color:#8D2828;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;					
+		_line-height:31px;					
+		_height:31px;					
+		font-weight:normal;
+		font-style:normal;
+	}	
+	
+	div.sub_menu6{		
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:#A0CB33;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;
+		}	
+	div.menu7{
+		float:left;		
+		text-align:center;
+		height:100%;
+		width:140px;
+		_padding-top:3px;
+		color:black;
+		font-family:'MirageRegular';
+		font-size:26px;
+		line-height:34px;					
+		_line-height:31px;					
+		_height:31px;					
+		font-weight:normal;
+		font-style:normal;
+	}	
+	
+	div.sub_menu7{		
+			float:left;		
+			text-align:left;
+			height:18px;
+			width:143px;		
+			background-color:#E6E7E8;
+			_padding-top:7px;
+			color:black;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+			font-weight:normal;
+			font-style:normal;
+			display:block;
+		}	
+	a.menu:link{
+		cursor:default;
+		cursor:pointer;
+		color:#E6E7E8;
+		
+		text-decoration:none;
+	} 
+	a.menu:visited {
+		cursor:default;
+		cursor:pointer;
+		color:#E6E7E8;		
+		text-decoration:none;
+	}
+	/* a.menu:hover,div.coluna_menu:hover {
+		cursor:default;
+		cursor:pointer;
+		color:#E6E7E8;
+		background-color:#E6E7E8;
+		text-decoration:none;
+	} */
+	a.menu:active {
+		cursor:default;
+		cursor:pointer;
+		color:#E6E7E8;		
+		text-decoration:none;
+	}	
+	a.sub_menu:link{
+		cursor:default;
+		cursor:pointer;	
+		text-decoration:none;		
+	}
+	a.sub_menu:visited {
+		cursor:default;
+		cursor:pointer;
+		text-decoration:none;
+	}
+	/* a.sub_menu:hover ,
+	div.sub_menu1:hover,
+	div.sub_menu2:hover,
+	div.sub_menu3:hover,
+	div.sub_menu4:hover,
+	div.sub_menu5:hover
+	{
+		cursor:default;
+		cursor:pointer;
+		text-decoration:underline;
+	} */
+	a.sub_menu:active {
+		cursor:default;
+		cursor:pointer;
+		text-decoration:none;
+	}
+#conteudo{
+	clear:both;
+	display:block;
+	width:100%;
+	float:center;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	background-color:#FFF;
+	height:auto;
+	min-height:2600px;
+	 }
+
+#conteudohome{
+	clear:both;
+	display:block;
+	width:100%;
+	float:center;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	background-color:#FFF;
+	height:auto;
+	min-height:2600px;
+	 }	 
+	 
+
+	#conteudo_centro{
+		float:center;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+		left:auto;
+		right:auto;
+		display:block;
+		min-height:2600px;
+		width:1000px;
+		height:auto;
+		background-color:#FFF;
+	}
+	div.margem_conteudo{		
+		float:left;
+		text-align:left;		
+		width:10px;
+		display:block;
+		overflow:hidden;
+	}	
+		#conteudo_meio{
+			float:left;
+			display:block;
+			text-align:left;
+			width:750px;
+			min-height:1000px;
+			height:auto;
+			overflow:hidden;
+			clear:both;
+			background-color:#FFF;
+		}
+		#apresentao_slide_show{
+			width:482px;
+			height:325px;
+			float:left;
+			display:block;
+		}
+		#miniaturas_slide_show{
+			width:250px; 
+			height:325px;
+			float:left;
+			display:block;
+		}
+
+			div.containner_cinza{
+				width:250px; 
+				height:74px;
+				float:left;
+				display:block;
+				clear:both;
+				background-color:transparent;	
+			}
+				div.conteudo_cinza{
+					width:160px; padding-left:10px; padding-right:10px; 
+					height:52px; font-size:11px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; 
+					float:left;
+					display:inline;
+					text-align:left;
+					background-color:transparent;
+				}
+				.banner_cinza{
+					width:69px; 
+					height:52px;
+					float:left;
+					display:block;
+					overflow:hidden;
+					background-color:transparent;				
+					
+					-moz-border-radius-topleft:6px;
+					-moz-border-radius-topright:6px;
+					-moz-border-radius-bottomleft:6px;
+					-moz-border-radius-bottomright:6px;
+					
+					-webkit-border-top-left-radius:6px;
+					-webkit-border-top-right-radius:6px;
+					-webkit-border-bottom-left-radius:6px;
+					-webkit-border-bottom-right-radius:6px;
+					
+					-khtml-border-top-left-radius:6px;
+					-khtml-border-top-right-radius:6px;
+					-khtml-border-bottom-left-radius:6px;					
+					-khtml-border-bottom-right-radius:6px;					
+					
+					border-top-left-radius:6px;
+					border-top-right-radius:6px;
+					border-bottom-left-radius:6px;
+					border-bottom-right-radius:6px;
+					border-radius: 6px 6px 6px 6px;
+				}
+			
+/****** faixas divisorias, vermelha azul, amarelo, verde, laranja, conforme a pagina correspondente ******/			
+			div.faixa_vermelha{
+				width:240px; margin-right:10px; margin-bottom:5px; height:5px;float:left;display:inline;background-color:#8E2929; clear:both;}
+			
+			div.faixa_laranja{
+				width:240px; margin-right:10px; margin-bottom:5px; height:5px;float:left;display:inline;background-color:#f2672b; clear:both; }
+				
+			div.faixa_azul_escura{
+				width:240px; margin-right:10px; margin-bottom:5px; height:5px; float:left;display:inline;background-color:#2C2755; clear:both;  }
+				
+			div.faixa_azul_clara{
+				width:240px; margin-right:10px; margin-bottom:5px; height:5px;float:left;display:inline;background-color:#036496; clear:both;}		
+			
+			
+			.risco_azul{
+				width:230px; height:5px; display:inline; clear:both; background-color:#2C2755; margin-bottom:2px;float:left;}
+				
+			.risco_azul_clara{
+				width:230px; height:5px; display:inline; clear:both; background-color:#036496; margin-bottom:2px;float:left;}
+				
+			.risco_vermelho{
+				width:230px; height:5px; display:inline; clear:both; background-color:#8E2929; margin-bottom:2px;float:left;}
+				
+			.risco_laranja{
+				width:230px; height:5px; display:inline; clear:both; background-color:#f2672b; margin-bottom:2px;float:left;}	
+				
+			div.risco{
+				width:240px; margin-right:10px; background-image:url(../images/home/fundorisco.png); background-repeat:repeat-x;  height:1px; display:inline; float:left; margin-top:10px; margin-bottom:10px;}			
+			
+			div.risco1{
+				width:230px; height:1px; background-image:url(../images/home/fundorisco.png); background-repeat:repeat-x;  display:inline; float:left;}	
+				
+			.riscopublicidade{
+				width:216px; height:1px; background-image:url(../images/home/fundorisco.png); background-repeat:repeat-x;  display:block; float:left;}	
+/*********************************************************************************************************************************************/
+			
+			div.conteudo_slide_show{
+				width:100%; 
+				height:150px;
+				float:left;
+				display:block;
+				overflow:auto;
+				font-family:Arial, Helvetica, sans-serif;	
+				font-size:12px;	
+			}
+			#imagem_slide_show{
+				width:284; 
+				height:201px;
+				float:left;
+				display:block;				
+			}
+			#botoes_de_controle{
+				width:482px;
+				height:31px;
+				float:left;
+				display:block;
+				clear:both;				
+			}
+			#publicidade_conteudo{
+				width:11px;
+				height:47px;
+				float:left;
+				display:block;		
+			}
+			#publicida_de_conteudo_containner{
+				width:482px;
+				height:47px;
+				float:left;
+				display:block;
+				clear:both;
+				background-color:#FFF212;
+			}
+		#margem_slide_show{
+			width:21px; 
+			height:38px;
+			float:left;
+			display:block;
+		}
+		#slide_show{
+			width:750px;
+			height:325px;
+			float:left;
+			display:block;
+		}
+		div.conteudo_meio{
+			width:750px;
+			height:auto;
+			min-height:1200px;
+			display:block;
+			clear:both;
+			float:left;
+			background-color:#FFF;
+		}
+		#noticias_recentes{
+			width:750px;
+			height:550px;
+			float:left;
+			display:inline-block;
+			
+		}
+		div.containner_noticias_recentes{
+			width:100%; 
+			height:235px;
+			float:left;
+			display:inline;
+			
+		}
+		
+		div.conteudo_noticias_recentes{
+			float:left;
+			width:236px; 
+			height:235px;
+			margin-left:5px;
+			_margin-left:expression(5/2+"px");
+			margin-right:5px;
+			_margin-right:expression(5/2+"px");
+			display:inline;
+		}
+		div.banner_cinza2{
+			width:236px; 
+			height:87px;
+			float:left;
+			display:block;
+			background-color:#D2D3D5;				
+			
+			-moz-border-radius-topleft:6px;
+			-moz-border-radius-topright:6px;
+			-moz-border-radius-bottomleft:6px;
+			-moz-border-radius-bottomright:6px;
+			
+			-webkit-border-top-left-radius:6px;
+			-webkit-border-top-right-radius:6px;
+			-webkit-border-bottom-left-radius:6px;
+			-webkit-border-bottom-right-radius:6px;
+			
+			-khtml-border-top-left-radius:6px;
+			-khtml-border-top-right-radius:6px;
+			-khtml-border-bottom-left-radius:6px;					
+			-khtml-border-bottom-right-radius:6px;					
+			
+			border-top-left-radius:6px;
+			border-top-right-radius:6px;
+			border-bottom-left-radius:6px;
+			border-bottom-right-radius:6px;
+			border-radius: 6px 6px 6px 6px;
+		}
+			
+	#conteudo_lateral{
+		float:left;
+		text-align:right;
+		width:221px;
+		height:1300px;
+		display:block;
+		overflow:hidden;
+		margin-left:0px;
+		_margin-right:expression(10/2+"px");		
+	}
+	div.banner_lateral_grande{
+		width:100%;
+		height:389px;
+		display:block;
+		overflow:hidden;
+		
+		-moz-border-radius-topleft:10px;
+		-moz-border-radius-topright:10px;
+		-moz-border-radius-bottomleft:10px;
+		-moz-border-radius-bottomright:10px;
+		
+		-webkit-border-top-left-radius:10px;
+		-webkit-border-top-right-radius:10px;
+		-webkit-border-bottom-left-radius:10px;
+		-webkit-border-bottom-right-radius:10px;
+		
+		-khtml-border-top-left-radius:10px;
+		-khtml-border-top-right-radius:10px;
+		-khtml-border-bottom-left-radius:10px;					
+		-khtml-border-bottom-right-radius:10px;					
+		
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		border-radius: 10px 10px 10px 10px;
+		
+		behavior:url(./css/PIE_uncompressed.htc);
+		margin-bottom:2px;
+		_margin-bottom:expression(2/2+"px");
+		margin-top:2px;
+		_margin-top:expression(2/2+"px");
+		clear:both;		
+	}
+	div.banner_lateral_media{
+		width:100%;
+		height:184px;
+		display:block;
+		overflow:hidden;
+		margin-bottom:2px;
+		_margin-bottom:expression(2/2+"px");
+		margin-top:2px;
+		_margin-top:expression(2/2+"px");
+		clear:both;	
+	}
+	div.banner_lateral_pequeno{
+		width:100%;
+		height:86px;
+		display:block;
+		overflow:hidden;
+		background-color:#F58634;
+		
+		-moz-border-radius-topleft:10px;
+		-moz-border-radius-topright:10px;
+		-moz-border-radius-bottomleft:10px;
+		-moz-border-radius-bottomright:10px;
+		
+		-webkit-border-top-left-radius:10px;
+		-webkit-border-top-right-radius:10px;
+		-webkit-border-bottom-left-radius:10px;
+		-webkit-border-bottom-right-radius:10px;
+		
+		-khtml-border-top-left-radius:10px;
+		-khtml-border-top-right-radius:10px;
+		-khtml-border-bottom-left-radius:10px;					
+		-khtml-border-bottom-right-radius:10px;					
+		
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		border-radius: 10px 10px 10px 10px;
+		
+		_margin-bottom:expression(2/2+"px");
+		margin-top:2px;
+		_margin-top:expression(2/2+"px");
+		clear:both;		
+	}
+	div.margem_lateral{
+		width:100%;
+		height:3px;
+		display:block;
+		overflow:hidden;
+		clear:both;
+	}
+	#margem_rodape{
+		background-image:url(../images/home/fundo_antes_do_rodape.png);
+		height:14px;
+		display:block;
+		width:100%;
+		display:block;
+		clear:both;
+	}
+	#rodape{
+		float:center;
+		text-align:center;
+		width:1000px;
+		min-height:343px;
+                height:auto;
+		display:block;
+		clear:both;
+		overflow:hidden;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:transparent;		
+	}
+	
+	#rodapebaixo {
+		width:1000px;
+		min-height:102px;
+		height:auto;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+	}
+	
+	#rodapetotal {
+		width:100%;
+		height:auto;
+		min-height:345px;
+		margin-left:0px;
+		margin-right:0px;
+		background-color:#2C2755;
+		bottom:0;
+		display:block;
+		overflow:hidden;
+		}
+		
+	#topo{
+		width:1000px;
+		height:107px;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:transparent;		
+	}	
+		
+/* -------------------------------------------rodapes-------------------------------------  */	
+
+
+.menuinferior {
+	width:130px;
+	height:auto;
+	min-height:343px;
+	background-color:transparent;
+	text-align:left;
+	color:#FFF;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:150%;
+	}		
+	
+.divisormenuinferior {
+	width:1px;
+	height:303px;
+	margin-bottom:20px;
+	margin-top:20px;
+	float:left;
+	margin-right:9px;
+	display:inline;
+	}	
+
+#divmix {
+	width:250px;
+	height:32px;
+	float:left;
+	font-size:10px;
+	color:#FFF;
+	text-align:left;
+	font-family:arial;
+	line-height:32px;
+	}
+				
+	
+/*----------------- fotos em destaque -------------------------------------*/
+
+
+.emdestaque {
+	width:750px; height:auto;float:left;display:inline;}	
+
+
+.containerdestaqueitens{
+	width:128px; height:auto; float:left; margin-left:10px; display:block;}
+	
+.topodestaquitens{
+	width:128px; height:15px; float:left; display:inline; overflow:hidden; font-size:14px; line-height:15px; text-align:left; font-family:Arial, Helvetica, sans-serif; color:#F00;}	
+	
+.descricaodestaque {
+	width:128px; height:67px; float:left; display:inline;  text-align:left;}
+	
+.escritadestaque{
+	font-family:Arial, Helvetica, sans-serif; color:#000; font-size:10px; text-decoration:none;}
+	
+.escritadestaque:hover{
+	font-family:Arial, Helvetica, sans-serif; color:#000; font-size:10px; text-decoration:underline;}
+	
+.escritadestaque:link{
+	font-family:Arial, Helvetica, sans-serif; color:#000; font-size:10px; text-decoration:none;}	
+	
+.escritadestaque:visited{
+	font-family:Arial, Helvetica, sans-serif; color:#000; font-size:10px; text-decoration:none;}	
+	
+.escritadestaque:active{
+	font-family:Arial, Helvetica, sans-serif; color:#000; font-size:10px; text-decoration:none;}			
+		
+
+.fotosemdestaqueitens { /* descontado 4 px devido a borda */
+	width:124px; height:70px; float:left; border-style:solid; border-width:2px; border-color:#999; display:inline;
+				-moz-border-radius-topleft:6px;
+				-moz-border-radius-topright:6px;
+				-moz-border-radius-bottomleft:6px;
+				-moz-border-radius-bottomright:6px;
+				
+				-webkit-border-top-left-radius:6px;
+				-webkit-border-top-right-radius:6px;
+				-webkit-border-bottom-left-radius:6px;
+				-webkit-border-bottom-right-radius:6px;
+				
+				-khtml-border-top-left-radius:6px;
+				-khtml-border-top-right-radius:6px;
+				-khtml-border-bottom-left-radius:6px;					
+				-khtml-border-bottom-right-radius:6px;					
+				
+				border-top-left-radius:6px;
+				border-top-right-radius:6px;
+				border-bottom-left-radius:6px;
+				border-bottom-right-radius:6px;
+				border-radius: 6px 6px 6px 6px;
+	}		
+#tituloemdestaque {
+	width:750px; height:29px; float:left; text-align:left; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}	
+	
+	
+	
+/* em destaque grande  */
+
+.containeremdestaquegrande{
+	width:750px; height:auto; display:block; float:left; overflow:hidden; clear:both; background-color:#FFF;}
+	
+.emdestaquegrande{/* nao esquecer padding de 10 de cada lado */	
+	width:230px; height:230px; float:left; padding:10px; display:inline; overflow:hidden;background-color:transparent;}
+.emdestaquepequeno{/* nao esquecer padding de 10 de cada lado */	
+	width:230px; height:30px; float:left; padding:10px; display:inline; overflow:hidden;background-color:transparent;}
+
+.fotoemdestaquegrande{
+	width:230px; height:190px; float:left; display:block; overflow:hidden; background-color:transparent;}	
+	
+.tituloemdestaquegrande{
+	width:230px; height:26px; display:inline; float:left; overflow:hidden; font-family:Verdana, Geneva, sans-serif; color:#000000;
+	text-align:left; font-size:20px; margin-bottom:4px; background-color:transparent;}
+	
+		
+	
+	
+
+/* estruturacao shopping, itens, divs e tudo, formatacao */
+
+div.estruturashopping {
+	width:100%; height:auto; float:cente; margin-left:0px; margin-right:0px; background-color:#FFF;}
+
+div.shopping {
+	width:1000px; height:283px; float:center; margin-left:auto; margin-right:auto; display:block; clear:both;}	
+	
+#toposhopping {
+	width:1000px; height:32px; float:left; clear:both; display:block; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:32px; font-weight:bold; text-align:left; text-indent:15px;}
+	
+#containerabas {
+	width:727px; height:auto; float:left; clear:both; display:block; overflow:hidden;}	
+
+.itensshopping{
+	width:138px; height:161px; float:left; display:block;}
+
+.divisoritensshopping{
+	width:2px; height:161px; float:left; display:block; overflow:hidden;}
+
+.fotoshopping{
+	width:114px; height:90px; float:left; margin-left:12px; margin-right:12px; margin-top:25px; display:inline;}
+	
+.descricaoitens{
+	width:138px; height:46px; float:left; display:block; overflow:hidden; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; color:#309; font-weight:bold;}
+	
+.lojasshopping {
+	width:30px; height:35px; float:left; padding-left:10px; padding-right:10px; display:block; margin-top:3px; margin-bottom:3px;}	
+	
+	
+	 /*   tamanho   30 x 33  tamanho de imagens maxima */
+			
+	
+div.publicidadeshopping {
+	width:250px; float:left; height:250px; display:block;}	
+	
+.bannerpublicidadeshopping	{
+	width:230px; float:left; height:220px; display:block; margin-top:0px; border-width:10px; border-color:#CCC; border-style:solid;} /* 20 px a menos devido as bordas */
+
+/* pagina de categorias */
+	
+.containercategorias{
+	float:left; display:inline; overflow:hidden; width:230px; height:172px; padding-left:10px; padding-right:10px; padding-bottom:5px;}	
+	
+.fotocategoria{
+	width:228px; height:109px; border-width:1px; border-style:solid; border:#FFF; float:left; display:inline; overflow:hidden;
+					background-color:transparent;
+					-moz-border-radius-topleft:6px;
+					-moz-border-radius-topright:6px;
+					-moz-border-radius-bottomleft:6px;
+					-moz-border-radius-bottomright:6px;
+					
+					-webkit-border-top-left-radius:6px;
+					-webkit-border-top-right-radius:6px;
+					-webkit-border-bottom-left-radius:6px;
+					-webkit-border-bottom-right-radius:6px;
+					
+					-khtml-border-top-left-radius:6px;
+					-khtml-border-top-right-radius:6px;
+					-khtml-border-bottom-left-radius:6px;					
+					-khtml-border-bottom-right-radius:6px;					
+					
+					border-top-left-radius:6px;
+					border-top-right-radius:6px;
+					border-bottom-left-radius:6px;
+					border-bottom-right-radius:6px;
+					border-radius: 6px 6px 6px 6px;}	
+
+.descricaocategoria {
+	width:230px; height:54px; float:left; display:inline; margin-top:2px; overflow:hidden; font-size:11px; font-weight:bold; text-align:left; color:#000; font-family:Arial, Helvetica, sans-serif; line-height:110%; }
+
+.descricaocategoriaescrita {
+	width:230px; height:160px; float:left; display:inline; margin-top:2px; overflow:hidden; font-size:11px; font-weight:bold; text-align:left; color:#000; font-family:Arial, Helvetica, sans-serif;line-height:24px;
+	color:#2C2755;}
+	
+.descricaocategoriaescritalaranja {
+	width:230px; height:160px; float:left; display:inline; margin-top:2px; overflow:hidden; font-size:11px; font-weight:bold; text-align:left; color:#000; font-family:Arial, Helvetica, sans-serif;line-height:24px;
+	color:#f2672b;}
+	
+.descricaocategoriaescritaverde {
+	width:230px; height:160px; float:left; display:inline; margin-top:2px; overflow:hidden; font-size:11px; font-weight:bold; text-align:left; color:#000; font-family:Arial, Helvetica, sans-serif;line-height:24px;}
+	
+.descricaocategoriaescritaazulclaro {
+	width:230px; height:160px; float:left; display:inline; margin-top:2px; overflow:hidden; font-size:11px; font-weight:bold; text-align:left; color:#000; font-family:Arial, Helvetica, sans-serif;line-height:24px;
+	color:#036496;}
+	
+.descricaocategoriaescritavermelho {
+	width:230px; height:160px; float:left; display:inline; margin-top:2px; overflow:hidden; font-size:11px; font-weight:bold; text-align:left; color:#000; font-family:Arial, Helvetica, sans-serif;line-height:24px;
+	color:#8E2929;}						
+
+/* noticias - horizontal    estrutura em iframe    */ 
+
+#noticiashorizontal{
+	width:750px; height:auto; min-height:850px; float:left; display:inline; overflow:hidden;}
+
+.containernoticiahorizontal{
+	width:730px; height:100px; padding-left:10px; padding-right:10px;  padding-top:10px; float:left; clear:both; display:inline; }
+	
+.risconoticiahorizontal{
+	width:730px; height:8px; background-color:#2C2755; float:left; display:inline; clear:both;}		
+	
+#tituloultimasnoticiashorizontal {
+	width:370px; height:29px; float:left; text-align:left; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}	
+	
+.seletorpaginasnoticias{
+	width:750px; height:30px;float:left; text-align:center;  font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:30px;font-weight:bold; }	
+
+.publicidadepequenomeio{
+	width:222px; padding-left:10px; padding-right:10px; height:160px; float:left; display:inline; overflow:hidden;}
+
+.conteudoultimasnoticiashorizontal{
+	height:78px; padding-top:7px; width:612px; padding-left:10px; font-family:Arial, Helvetica, sans-serif; font-size:14px;
+	 color:#000; float:left; font-weight:bold;}	
+.fotoconteudoultimasnoticiashorizontal{
+	height:78px; width:108px; float:left; display:block; overflow:hidden; padding-top:7px; }
+
+
+.publicidadepequenomeioitens{
+	width:212px; height:130px; border-width:5px; border-style:solid; border-color:#CCC;}			
+	
+
+
+.topopublicidadepequenomeio{
+	width:222px; height:20px; line-height:20px; text-indent:10px; color:#000; font-family:Arial, Helvetica, sans-serif; font-size:10px; text-align:left;}	
+	
+.divisorconteudo{
+	width:750px; height:20px; float:left; display:inline; text-indent:10px; }	
+	
+/*   pagina de fotos, divs, textos e estruturas */ 	
+
+.topogaleriafotos{
+	width:750px; height:30px; float:left; display:block; overflow:hiden; font-family:Arial, Helvetica, sans-serif; font-family:14px; color:#000;
+	text-indent:15px; font-weight:bold;}
+
+.containerfotos{
+	width:95px; padding-left:10px; padding-right:10px; padding-bottom:10px;  height:70px; display:inline; float:left; overflow:hidden; margin:5px;
+	 }
+	
+/* pagina de serviços  */ 
+
+
+.titulovideos {
+	width:750px; height:29px; float:left; text-align:left; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}
+	
+.janelavideo {
+	width:730px; height:448px; float:left; display:block; overflow:hidden; padding:10px;} /* 20 px a menos, devido ao paddin de 10px em cada lado */		
+	
+.nomevideos {
+	width:750px; height:29px; float:left; text-align:left; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}			
+
+.janelavideospequenos{
+	width:750px; height:500px; overflow:hidden; display:block; background-color:#CCCCCC; float:left;}
+
+.containervideos{
+	width:125px; height:140px; display:inline; float:left; overflow:hidden; margin:5px;
+	 }	
+	 
+.videos{
+	width:95px; padding-left:10px; padding-right:10px; padding-bottom:10px;  height:70px; display:block; float:left; overflow:hidden; margin:5px;
+	 }		 
+	 
+.legendavideos {
+	width:125px; height:45px; float:left; text-align:left;  font-family:Arial, Helvetica, sans-serif; color:#000; font-size:10px; line-height:29px;font-weight:bold; overflow:hidden; line-height:100%;}
+	
+.divisorpublicidade{
+	width:216px; float:left; display:block; height:3px;}		 
+	
+/*  pagina de servicos, divs  e estilos e formatacao */
+
+div.servicos{
+	width:250px; height:600px; float:left; display:block; clear:both; background-color:#FF9900; padding-top:10px;}
+	
+.menuservicos{
+	width:250px; height:36px; float:left; display:block; font-family:Verdana, Geneva, sans-serif; color:#000; text-align:left; text-indent:15px; line-height:36px;}	
+	
+.tituloservicos {
+	width:750px; height:29px; float:left; text-align:left; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}	
+	
+	
+/* itens dos serviços, irão abrir na iframe da pagina de serviços */
+
+.tituloitensservicos{
+	width:500px; height:30px; display:block; float:left; text-align:left; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}	
+	
+.divisoritensservicos{
+	width:480px; height:11px; margin-left:10px; margin-right:10px; display:inline; background-color:#FF9900; float:left; }
+	
+.containeritensservicos{
+	width:480px; height:88px; float:left; padding:10px;} /* 20 px a menos em cada lado, padding de 10px */
+	
+.fotoitensservicos{
+	width:99px; height:88px; float:left; display:block;}
+	
+.conteudoitensservicos{
+	width:371px; height:88px; float:left; display:block; overflow:hidden; padding-left:10px; font-family:Arial, Helvetica, sans-serif; line-height:115%; font-size:18px; font-weight:bold; text-align:left; color:#F00;}/* padding left de 10 */				
+
+.conteudoitensservicostotal{
+	width:100%; height:88px; float:left; display:block; overflow:hidden; padding-left:10px; font-family:Arial, Helvetica, sans-serif; line-height:115%; font-size:18px; font-weight:bold; text-align:left; color:#F00;}/* 
+	
+/*  clima e tempo  */ 
+
+.tituloclimatempo{
+	width:750px; height:30px; display:block; float:left; text-align:center; text-indent:10px; font-family:Arial, Helvetica, sans-serif; color:#000; font-size:14px; line-height:29px;font-weight:bold;}
+	
+.janelaclimaetempo{
+	width:120px; height:170px; padding:10px; float:left; display:block;}
+	
+.divisorclima{
+	width:212px; height:10px; float:left; display:block;}		
+
+
+
+/* estilo de paragrafos */	
+h5 {
+	color:#000; font-weight:bold; font-size:20px; font-family:Arial, Helvetica, sans-serif;}	
+	
+h6 {
+	color:#006; font-weight:bold; font-size:14px; font-family:Arial, Helvetica, sans-serif; text-indent:10px;}
+	
+h7 {
+	color:#999; font-weight:bold; font-size:14px; font-family:Arial, Helvetica, sans-serif; text-align:left; text-indent:10px;}	
+	
+	div.h7noticia{
+	width:250px; height:20px; text-align:left; float:left; clear:both; display:block; overflow:hidden; color:#2C2755; font-size:18px; font-family:Verdana, Geneva, sans-serif; font-style:normal; text-align:left; text-indent:10px;}
+	
+	div.h7esporte{
+	width:250px; height:20px; text-align:left; float:left; clear:both; display:block; overflow:hidden; color:#8E2929; font-size:18px; font-family:Verdana, Geneva, sans-serif; font-style:normal; text-align:left; text-indent:10px;}	
+	
+	div.h7entretenimento{
+	width:250px; height:20px; text-align:left; float:left; clear:both; display:block; overflow:hidden; color:#036496; font-size:18px; font-family:Verdana, Geneva, sans-serif; font-style:normal; text-align:left; text-indent:10px;}
+	
+	div.h7servicos{
+	width:250px; height:20px; text-align:left; float:left; clear:both; display:block; overflow:hidden; color:#f2672b; font-size:18px; font-family:Verdana, Geneva, sans-serif; font-style:normal; text-align:left; text-indent:10px;}
+	
+	div.h7videos{
+	width:250px; height:20px; text-align:left; float:left; clear:both; display:block; overflow:hidden; color:#999; font-size:18px; font-family:Verdana, Geneva, sans-serif; font-style:normal; text-align:left;}
+
+
+/***************************  slide show da pagina inicial ***********************/		
+
+* {margin:0; padding:0}
+body {font:10px Verdana,Arial; background-color:#F2F3F3;}
+p {line-height:1.4; margin-bottom:12px; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+#wrapper {width:450px; float:left; margin-left:8px; margin-top:10px;}
+
+#slider {float:left; position:relative; overflow:hidden; width:445px; height:270px; background-color:#fff;}
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; width:445px; height:445px; padding-right:10px}
+
+.pagination {float:left; list-style:none; height:25px; margin-left:0px; margin-top:5px;}
+.pagination li {float:left; cursor:pointer; padding:3px 4px; background:#CCC; border:1px solid #999; margin:0 4px 0 0; text-align:center; color:#222}
+.pagination li:hover {background:#777; border:1px solid #bbb; color:#000}
+li.current {border:1px solid #ccc; background:#888}
+
+li#content {width:445px; height:270px;}
+#content h1 {font:22px Georgia,Verdana; margin-bottom:15px; color:#036}
+
+
+/* tamanho das imagens para o slide é de  500 x 300 px   */ 
+
+
+
+/* anuncio pg inicial */
+
+#containeranuncio{ width:230px; height:305px; float:left; display:inline; padding:10px; /* largura total: 250 px; altura total: 325px  */
+	}	
+	
+#textoanuncio{
+	width:240px; height:73px; float:left; display:inline; overflow:hidden; color: #666; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; padding-left:10px;}	
+	
+	
+/********************************************************************** escritas e links das paginas ************************************************************/	
+
+
+/* noticias */
+a.classenoticia{
+	font-size:11px; font-weight:bold; text-align:left; color:#2C2755; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classenoticia:link {
+	font-size:11px; font-weight:bold; text-align:left; color:#2C2755; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classenoticia:hover{
+	text-decoration:underline;}
+	
+a classenoticia:visited{
+	text-decoration:none;}	
+	
+/* esporte */
+a.classeesporte{
+	font-size:11px; font-weight:bold; text-align:left; color:#8E2929; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeesporte:link {
+	font-size:11px; font-weight:bold; text-align:left; color:#8E2929; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeesporte:hover{
+	text-decoration:underline;}
+	
+a classeesporte:visited{
+	text-decoration:none;}	
+	
+/* entretenimento */
+a.classeentrenimento{
+	font-size:11px; font-weight:bold; text-align:left; color:#036496; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeentrenimento:link {
+	font-size:11px; font-weight:bold; text-align:left; color:#036496; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeentrenimento:hover{
+	text-decoration:underline;}
+	
+a classeentrenimento:visited{
+	text-decoration:none;}
+	
+/* servicos */
+a.classeservicos{
+	font-size:11px; font-weight:bold; text-align:left; color:#f2672b; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeservicos:link {
+	font-size:11px; font-weight:bold; text-align:left; color:#f2672b; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeservicos:hover{
+	text-decoration:underline;}
+	
+a classeservicos:visited{
+	text-decoration:none;}			
+	
+/************************* em casos de manchetes sem fotos usar essas classes ***************************/
+
+.noticiasemfoto{width:230px; float:left; display:block; height:165px; overflow:hidden; font-size:20px; text-align:left;}
+.esportesemfoto{width:230px; float:left; display:block; height:165px; overflow:hidden; font-size:20px; text-align:left;}
+	
+.entretenimentosemfoto{ width:230px; float:left; display:block; height:165px; overflow:hidden; font-size:20px; text-align:left;
+	}	
+	
+.servicossemfoto{ width:230px; float:left; display:block; height:165px; overflow:hidden; font-size:20px; text-align:left;
+	}	
+	
+/* noticias pequenas, de menor importancia, geralmente a direita das paginas chaves */
+
+.noticiasemfotopequena{ width:250px; float:left; display:block; height:52px; overflow:hidden; font-size:20px; text-align:left;
+	}
+	
+.esportesemfotopequena{ width:250px; float:left; display:block; height:52px; overflow:hidden; font-size:20px; text-align:left;
+	}
+	
+.entretenimentosemfotopequena{ width:250px; float:left; display:block; height:52px; overflow:hidden; font-size:20px; text-align:left;
+	}	
+	
+.servicossemfotopequena{ width:250px; float:left; display:block; height:52px; overflow:hidden; font-size:20px; text-align:left;
+	}		
+
+/*************************************     considerações  *********************************************************/
+	/* noticias pequenas nos cantos, com foto fica assim:
+	
+	containercinza > conteudocinza > classenoticia
+					 bannercinza
+	
+	noticias pequenas sem fotos fica assim:
+	
+	noticiasemfotopequena > classenoticiasemfotopequena
+	
+     */	
+		
+
+/* noticias  grande */
+a.classenoticiasemfoto{
+	font-size:20px; font-weight:bold; text-align:left; color:#2C2755; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classenoticiasemfoto:link {
+	font-size:20px; font-weight:bold; text-align:left; color:#2C2755; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classenoticiasemfoto:hover{
+	text-decoration:underline;}
+	
+a classenoticiasemfoto:visited{
+	text-decoration:none;}
+	
+/* noticias  pequena */
+a.classenoticiasemfotopequena{
+	font-size:14px; font-weight:bold; text-align:left; color:#2C2755; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}/* muda apenas o tamanho da fonte */
+	
+a.classenoticiasemfotopequena:link {
+	font-size:14px; font-weight:bold; text-align:left; color:#2C2755; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classenoticiasemfotopequena:hover{
+	text-decoration:underline;}
+	
+a classenoticiasemfotopequena:visited{
+	text-decoration:none;}			
+	
+/* esporte grande */
+a.classeesportesemfoto{
+	font-size:20px; font-weight:bold; text-align:left; color:#8E2929; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeesportesemfoto:link {
+	font-size:20px; font-weight:bold; text-align:left; color:#8E2929; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeesportesemfoto:hover{
+	text-decoration:underline;}
+	
+a classeesportesemfoto:visited{
+	text-decoration:none;}
+	
+/* esporte pequeno */
+a.classeesportesemfoto{
+	font-size:14px; font-weight:bold; text-align:left; color:#8E2929; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeesportesemfoto:link {
+	font-size:14px; font-weight:bold; text-align:left; color:#8E2929; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeesportesemfoto:hover{
+	text-decoration:underline;}
+	
+a classeesportesemfoto:visited{
+	text-decoration:none;}		
+	
+/* entretenimento grande */
+a.classeentretenimentosemfoto{
+	font-size:20px; font-weight:bold; text-align:left; color:#036496; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeentrenimentosemfoto:link {
+	font-size:20px; font-weight:bold; text-align:left; color:#036496; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeentretenimentosemfoto:hover{
+	text-decoration:underline;}
+	
+a classeentretenimentosemfoto:visited{
+	text-decoration:none;}
+
+/* entretenimento pequeno */
+a.classeentretenimentosemfoto{
+	font-size:14px; font-weight:bold; text-align:left; color:#036496; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeentrenimentosemfoto:link {
+	font-size:14px; font-weight:bold; text-align:left; color:#036496; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeentretenimentosemfoto:hover{
+	text-decoration:underline;}
+	
+a classeentretenimentosemfoto:visited{
+	text-decoration:none;}	
+	
+/* servicos grande*/
+a.classeservicossemfoto{
+	font-size:20px; font-weight:bold; text-align:left; color:#f2672b; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeservicossemfoto:link {
+	font-size:20px; font-weight:bold; text-align:left; color:#f2672b; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeservicossemfoto:hover{
+	text-decoration:underline;}
+	
+a classeservicossemfoto:visited{
+	text-decoration:none;}
+	
+/* servicos pequeno*/
+a.classeservicossemfoto{
+	font-size:14px; font-weight:bold; text-align:left; color:#f2672b; font-family:Arial, Helvetica, sans-serif; text-decoration:none;}
+	
+a.classeservicossemfoto:link {
+	font-size:14px; font-weight:bold; text-align:left; color:#f2672b; font-family:Arial, Helvetica, sans-serif; text-decoration:none;
+	}	
+	
+a.classeservicossemfoto:hover{
+	text-decoration:underline;}
+	
+a classeservicossemfoto:visited{
+	text-decoration:none;}	
+
+
+/* categoria */ 
+
+
+
+
+
+
+/*******************************************************   facebook   ****************************************/
+
+#containerfacebook{
+	width:1000px; float:center; height:auto; margin-left:auto; margin-right:auto; display:block; overflow:hidden; clear:both;}
+
+#cabecalhofacebook{
+	background-color:#2C2755; text-align:left; text-indent:10px; font-family:Verdana, Geneva, sans-serif; font-size:16px; color:#FFF; width:1000px; height:40px; line-height:40px;}
+
+/*  menus do rodape */
+
+.menurodape{
+	color:#FFF; font-size:11px; text-decoration:none; text-align:left; font-family:Arial, Helvetica, sans-serif;}
+	
+.menurodape:link{
+	color:#FFF; font-size:11px; text-decoration:none; text-align:left; font-family:Arial, Helvetica, sans-serif;}	
+
+.menurodape:hover{
+	color:#999; font-size:11px; text-decoration:underline; text-align:left; font-family:Arial, Helvetica, sans-serif;}
+	
+.menurodape:visited{
+	color:#FFF; font-size:11px; text-decoration:none; text-align:left; font-family:Arial, Helvetica, sans-serif;}
+	
+	
+/* ******************** espaco de publicidade, pagina inicial, abaixo do slide show **********************************/
+
+#publicidadeinicial{
+	width:750px; height:320px; float:left; display:block; overflow:hidden; clear:both;} 
+	
+#bannerpublicidadeinicial{
+	width:480px; float:left; height:300px; display:block; overflow:hidden; padding:10px;}	/* paddin de 10px */
+	
+#publicidadesiniciais{
+	width:250px; height:320px; float:left; display:block; overflow:hidden;}
+
+
+
+/* noticias + vistas, isso fica nas publicidades da direita */
+
+div.maisvistas{
+	width:216px;height:74px;float:left;display:block;clear:both;background-color:transparent; margin-bottom:15px;}
+
+.fotomaisvistas{
+	width:60px; height:74px; float:left;display:block;overflow:hidden; background-color:transparent;}
+	
+.conteudomaisvistas{
+	width:156px; height:74px; float:left; display:inline; overflow:hidden;  font-size:14px;}	
+				
+div.h7maisvistas{
+	width:216px; height:20px; text-align:left; float:left; clear:both; display:block; overflow:hidden; color:#2C2755; font-size:14px; font-weight:bold; font-family:Verdana, Geneva, sans-serif; font-style:normal; text-align:left; }
+
+div.riscomaisvistas{
+	width:216px; height:1px; background-image:url(../images/home/fundorisco.png); background-repeat:repeat-x; clear:both;  display:inline; float:left; margin-top:5px; margin-bottom:5px;}	
+	
+.riscocinza_maisvistas{
+	width:216px; height:5px; display:inline; clear:both; background-color:#999;float:left;}	
+
+/* twitter */
+
+#containertwitter{
+	width:216px; float:left; clear:both; display:block; overflow:hidden; height:400px;}
+	
